@@ -4,8 +4,9 @@
 __author__ = 'keisu-ma'
 
 import sys
-import shelve
-from fsVOIManager import mergeFSVOI, loadVOISet
+import pandas as pd
+
+from fsVOIManager import mergeFSVOI
 
 def argumentError():
     print("Invalid argument!")
@@ -24,8 +25,8 @@ if __name__ == "__main__":
         argumentError()
 
     # Load VOI set
-    voiList, voiDict = loadVOISet(voiSetFile)
+    voidef = pd.read_csv(voiSetFile)
 
     # Apply VOI set
-    mergeFSVOI(inFile, outFile, voiList, voiDict)
+    mergeFSVOI(inFile, outFile, voidef)
 
