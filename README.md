@@ -24,4 +24,28 @@ fsVOIManager requires parcellation maps extracted from FreeSurfer to merge. Only
 
 ### VOI definition file
 
-fsVOIManager defines merged VOIs with a CSV file, VOI definition file. 
+fsVOIManager defines merged VOIs with a CSV file, VOI definition file. An example for VOI definition file is the followings:
+
+```
+FS VOI No.,FS VOI name,user VOI name,user VOI No.
+2,Left-Cerebral-White-Matter,SWM,1
+4,Left-Lateral-Ventricle,CSF,2
+5,Left-Inf-Lat-Vent,CSF,2
+```
+
+1st line defines what each column means. Each column indicates informations for VOI as follows:
+
+- FS VOI No. : VOI No. defined in FreeSurfer. (See $FREESURFER\_HOME/FreeSurferColorLUT.txt)
+- FS VOI name : Label name defined in FreeSurfer.
+- user VOI name : VOI name defined by user.
+- user VOI No. : VOI No. defined with fsVOIManager. These No. are assigned automatically with fsVOIManager.
+
+2nd line in this example indicates 'Left-Cerebral-White-Matter' in the FreeSurfer parcellation map (e.g., aparc+aseg) is regarded as 'SWM' (it means subcortical white matter) in new user-defined VOI set.
+3rd and 4th lines indicate 'Left-Lateral-Ventricle' and 'Left-Inf-Lat-Vent' are merged into 'CSF' (it means cerebrospinal fluid).
+
+You can create VOI definition file from scratch. However, a GUI tool, fsVOIManager, can help you to create the definition.
+
+### GUI-based definition
+
+Sorry, usage for GUI-based tool is now constructing.
+
