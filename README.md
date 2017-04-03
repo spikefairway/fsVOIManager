@@ -47,5 +47,12 @@ You can create VOI definition file from scratch. However, a GUI tool, fsVOIManag
 
 ### GUI-based definition
 
-Sorry, usage for GUI-based tool is now constructing.
+You can start the tool for GUI-based definition with the following command:
 
+```
+$ python fsVOIManager.py
+```
+
+This is a main window for the GUI tool.
+
+![GUI main](https://github.com/spikefairway/fsVOIManager/blob/master/docimgs/gui_main.png)
