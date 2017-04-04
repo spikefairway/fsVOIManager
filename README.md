@@ -45,7 +45,7 @@ FS VOI No.,FS VOI name,user VOI name,user VOI No.
 
 You can create VOI definition file from scratch. However, a GUI tool, fsVOIManager, can help you to create the definition.
 
-### GUI-based definition
+### GUI-based VOI definition
 
 You can start the tool for GUI-based definition with the following command:
 
@@ -60,4 +60,15 @@ This is a main window for the GUI tool.
 Main window has three columns. A list on the left column has VOI defined in FreeSurfer (see $FREESURFER_HOME/FreeSurferColorLUT.txt on your computer).
 A list on the top of right column indicates VOI you define. You can add or merge FreeSurfer VOI to user-defined VOI by buttons on the center column.
 
+'Add >>>' button simply add VOI as user-defined VOI. 'Merge as new >>>' button merges multiple FreeSurfer VOIs to an user-defined VOI. For example, if you hope to merge 'Left-Caudate' and 'Left-Putamen' to 'Left-Striatum', select 'Left-Caudate' and 'Left-Putamen' with Ctrl+Click (command+Click on Mac) or Shift+Click, and then push 'Merge as new >>>' button.
+
+![example to merge](https://github.com/spikefairway/fsVOIManager/blob/master/docimgs/example_merge.png)
+
+You can name a new merged VOI with pop-up window.
+
+![Name merged VOI](https://github.com/spikefairway/fsVOIManager/blob/master/docimgs/name_mergedVOI.png)
+
+Then, the merged VOI should be added to the list on the right columns. You can see FreeSurfer VOIs included in the new merged VOI in the bottom list on the right column.
+
+![VOI merged](https://github.com/spikefairway/fsVOIManager/blob/master/docimgs/gen_mergedVOI.png)
 
