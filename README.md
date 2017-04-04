@@ -97,6 +97,18 @@ Move up/down selected VOI. VOI No. for defined VOIs are assigned from top to bot
 
 HINTS: By default, all defined FreeSurfer VOIs are included in the list on the left. There are too many defined VOIs. For easier definition, you can load parcellation map outputted from FreeSurfer (e.g., aparc+aseg) with 'Load extracted VOI (.nii)' button. Then, you can see only VOIs existing in the loaded parcellation map. If you hope to go back default list, push 'Load default VOI list' on the bottom.
 
+### Generate parcellation map for defined VOI
 
+If you hope to generate a parcellation map for defined VOI, do the following procedures:
 
+1. Load FreeSurfer parcellation map (e.g. aparc+aseg) with 'Load extracted VOI (.nii)' button. This loaded file is regarded as a base to apply defined VOI.
+2. Push 'Apply VOI set to NIfTI VOI file' on the right bottom.
+
+![Apply](https://github.com/spikefairway/fsVOIManager/blob/master/docimgs/apply.png)
+
+Alternatively, you can generate parcellation map with command-line tool. I recommend this easier and more efficient way.
+
+```
+$python fsVOIManagerCUI.py <input_FreeSurfer_VOI_file> <VOI_set_file> <output_VOI_file>
+```
 
