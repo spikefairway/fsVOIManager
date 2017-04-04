@@ -75,5 +75,5 @@ Then, the merged VOI should be added to the list on the right columns. You can s
 'Merge to VOI >>>' button adds selected FreeSurfer VOIs to existing user-defined VOI. For example, if you hope to add 'Left-Accumbens-area' to 'Left-Striautm' you defined previously, select 'Left-Accumbens-area' on the left and 'Left-Striatum' on the right, and then push 'Merge to VOI >>>'. 
 
 ![Merge to VOI](https://github.com/spikefairway/fsVOIManager/blob/master/docimgs/merge_to_VOI.png)
-![Merge to VOI 2](https://github.com/spikefairway/fsVOIManager/blob/master/docimgs/merge_to_VOI2.png)
+![Merge to VOI 2](https://github.com/spikefairway/fsVOIManager/blob/master/docimgs/merge_to_VOI3.png)
 
