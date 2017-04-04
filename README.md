@@ -115,6 +115,6 @@ If you hope to generate a parcellation map for defined VOI, do the following pro
 Alternatively, you can generate parcellation map with command-line tool. I recommend this easier and more efficient way.
 
 ```
-$python fsVOIManagerCUI.py <input_FreeSurfer_VOI_file> <VOI_set_file> <output_VOI_file>
+$ python fsVOIManagerCUI.py <input_FreeSurfer_VOI_file> <VOI_set_file> <output_VOI_file>
 ```
 
