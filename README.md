@@ -56,3 +56,8 @@ $ python fsVOIManager.py
 This is a main window for the GUI tool.
 
 ![GUI main](https://github.com/spikefairway/fsVOIManager/blob/master/docimgs/gui_main.png)
+
+Main window has three columns. A list on the left column has VOI defined in FreeSurfer (see $FREESURFER_HOME/FreeSurferColorLUT.txt on your computer).
+A list on the top of right column indicates VOI you define. You can add or merge FreeSurfer VOI to user-defined VOI by buttons on the center column.
+
+
