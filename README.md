@@ -80,12 +80,20 @@ Then, the merged VOI should be added to the list on the right columns. You can s
 You can manupilate VOIs you defined with buttons on the right side. The followings are explanations for the buttons:
 
 ![Open](https://github.com/spikefairway/fsVOIManager/blob/master/docimgs/open.png)
-Open a CSV file which defines VOIs.
+Open a CSV file which defines VOIs. The format of CSV file is as described above.
 
 ![Save](https://github.com/spikefairway/fsVOIManager/blob/master/docimgs/save.png)
 Save current user-defined VOIs to CSV file.
 
+![Rename](https://github.com/spikefairway/fsVOIManager/blob/master/docimgs/rename.png)
+Rename selected VOI.
 
+![Remove](https://github.com/spikefairway/fsVOIManager/blob/master/docimgs/remove.png)
+Remove selected VOI.
+
+![Up](https://github.com/spikefairway/fsVOIManager/blob/master/docimgs/up.png)
+![Down](https://github.com/spikefairway/fsVOIManager/blob/master/docimgs/down.png)
+Move up/down selected VOI. VOI No. for defined VOIs are assigned from top to bottom on the list.
 
 HINTS: By default, all defined FreeSurfer VOIs are included in the list on the left. There are too many defined VOIs. For easier definition, you can load parcellation map outputted from FreeSurfer (e.g., aparc+aseg) with 'Load extracted VOI (.nii)' button. Then, you can see only VOIs existing in the loaded parcellation map. If you hope to go back default list, push 'Load default VOI list' on the bottom.
 
