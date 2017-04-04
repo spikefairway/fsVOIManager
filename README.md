@@ -18,6 +18,12 @@ Current development status for fsVOIManager is beta.
 - [nibabel](http://nipy.org/nibabel/)
 - [wxPython Phoenix](https://wxpython.org/Phoenix/docs/html/)
 
+## Install
+
+```
+$ python setup.py install
+```
+
 ## Usage
 
 fsVOIManager requires parcellation maps extracted from FreeSurfer to merge. Only [NIfTI-1 format](https://nifti.nimh.nih.gov/nifti-1) is supported as parcellation map file. Please note that you need to convert the maps to NIfTI-1 format because format for FreeSurfer outputs is [MGH/MGZ format](https://surfer.nmr.mgh.harvard.edu/fswiki/FsTutorial/MghFormat). 
